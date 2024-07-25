@@ -1,0 +1,38 @@
+.creator {
+    background-color: rgb(41, 172, 248);
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    display: flex;           /* Make the container a flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    text-align: center;      /* Center text content */
+    flex-direction: column;  /* Stack items vertically */         /* Full viewport height */
+    padding: 10px;   
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+.creator-image img {
+    height: 400px;
+    width: 320px;
+}
+.creator-text p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(15, 1, 1);
+    font-weight: bold;
+}
+.creator-text button {
+    background-color: rgb(2, 4, 87);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+@media screen and (max-width: 425px){
+    .creator {
+        margin-left: 40px;
+    }
+}

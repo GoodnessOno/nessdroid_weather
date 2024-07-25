@@ -2,4 +2,22 @@
     height: 180px;
     width: 180px;
     margin-left: 10px;
+    margin-bottom: 0;
+}
+.home-image h2 {
+    font-size: 35px;
+    margin-left: 0;
+}
+.home-image {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+@media screen and (max-width: 425px) {
+    .home-image h2 {
+        font-size: 25px;
+        width: 100%;
+    }
 }

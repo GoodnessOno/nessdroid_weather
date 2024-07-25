@@ -73,7 +73,7 @@ function Weather() {
 	return (
 		<div className="App">
 			<h1 className="app-name">
-				NESSDROID WEATHER APP
+				WEATHER UPDATE CHECK
 			</h1>
 			<div className="search-bar">
 				<input

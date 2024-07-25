@@ -5,3 +5,9 @@
     font-style: italic;
     margin: 0 auto;
 }
+@media screen and (max-width:425px) {
+    .rating {
+        width: 600px;
+        margin-left: 35px;
+    }
+}
